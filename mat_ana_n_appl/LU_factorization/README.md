@@ -32,3 +32,7 @@ gcc -o PALUF PALUF.c
 按照程序提示，先输入n*n矩阵的行列数n，再输入矩阵的entries。
 如果分解成功，程序会输出矩阵P、L与U。
 如果矩阵不可逆，分解会失败并提示，同时输出中间运算结果。
+
+## 运行示例
+
+见running example.png。
