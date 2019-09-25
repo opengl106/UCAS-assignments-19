@@ -6,7 +6,7 @@
 
 ## 功能
 
-1. 完成可逆矩阵A的A=LU因子分解，其中L是下三角矩阵而U是上三角矩阵；\
+1. 完成可逆矩阵A的A=LU因子分解，其中L是下三角矩阵而U是上三角矩阵；
 2. 对于包含行列式为零的leading principal minor的可逆矩阵A，求出令PA可分解为LU的P并求出PA=LU，其中P为row-switching elementary matrices的连乘，L是下三角矩阵而U是上三角矩阵。该过程中矩阵P的操作包含部分主元法的运用（partial pivoting）。
 
 ## 使用
