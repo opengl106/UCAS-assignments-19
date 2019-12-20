@@ -1,6 +1,6 @@
 # 基于注意力机制的RNN翻译器
 ## 介绍
-本程序实现了一个基于注意力机制的RNN翻译器，并通过在平行双语语料库(bilingual parallel corpora)上训练一定次数后，达到翻译某种语言的能力。
+本程序实现了一个基于注意力机制的RNN翻译器，并通过在平行双语语料库(bilingual parallel corpora)上训练一定次数后，达到翻译某种语言的能力。\
 本程序另外附加了两个python脚本，分别用来将xml语料库文件转换为txt，以及从语料库构建新的词汇表。
 ## 运行环境
 本程序在python3.6下运行，需要软件包“tensorflow=2.0.0”以及“nltk=3.4.5”；若使用GPU版本的该软件包（即tensorflow-gpu=2.0.0），则还需要支持CUDA的NVIDIA GPU、CUDA toolkit 10.0，以及cuDNN 7.6.0。
