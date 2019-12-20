@@ -28,9 +28,9 @@ Bahadnau Attention的部分包含三个全连接网络，均使用layers.Dense�
 使用tf.GradientTape方法进行梯度计算；使用tf.keras.optimizers.Adam进行优化。
 ## 使用说明
 ### 程序主体
-运行python3 main.py --help 以获得关于参数的描述。
-默认训练超参如下：嵌入维数64，RNN隐藏层维数128，单批句数64，学习率0.001，训练次数2000轮，每100轮输出信息。
+运行python3 main.py --help 以获得关于参数的描述。\
+默认训练超参如下：嵌入维数64，RNN隐藏层维数128，单批句数64，学习率0.001，训练次数2000轮，每100轮输出信息。\
 按照您想要的参数运行python3 main.py。
 ### 小工具
-运行python3 corpus_to_vocab.py，并按程序指示输入您的输入输出路径。
+运行python3 corpus_to_vocab.py，并按程序指示输入您的输入输出路径。\
 运行python3 xml_to_txt.py，并按程序指示输入您的输入输出路径。
