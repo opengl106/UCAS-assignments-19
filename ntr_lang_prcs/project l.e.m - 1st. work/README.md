@@ -17,7 +17,7 @@
 ### 文本数据处理器
 使用tensorflow（下称tf）的data.TextLineDataset方法从文本文档建立字符串组成的数据集。\
 用tf.strings.split方法将字符串分割成词汇。\
-用模块tf.python.ops.lookup_ops下的方法构建了对应单词的哈希表并将词汇向量映射到离散数字向量。\
+用模块tf.python.ops.lookup_ops下的方法构建了对应单词的哈希表并将词汇向量映射到离散数字向量。
 ### 模型
 使用tf.keras.layers模块（下称layers）进行了快捷的构建：\
 RNN的主体部分采用layers.GRU方法构建。\
